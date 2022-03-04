@@ -13,6 +13,7 @@ export const Navbar = () => {
                 <div className="Navbar__right__content">About</div>
                 <div className="Navbar__right__content">Log In</div>
                 <div className="Navbar__right__content">Sign Up</div>
+                <div className="Navbar__right__content">. . .</div>
             </div>
         </div>
      );
