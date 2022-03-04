@@ -1,0 +1,53 @@
+.Navbar{
+    background-color:#926B86;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:13vh;
+}
+
+.Navbar__left{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:50%;
+}
+
+.Navbar__left__img{
+    padding:3vh;
+}
+
+.Navbar__left__title{
+font-family: Inter;
+font-size: 7vh;
+font-style: normal;
+font-weight: 900;
+line-height: 61px;
+letter-spacing: 0px;
+text-align: center;
+padding-left: 1vh;
+}
+
+.Navbar__right{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:40%;
+}
+
+.Navbar__right__content{
+    font-family: Inter;
+    font-size: 3.5vh;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-align: center;
+    color:white;
+}
+
+.Navbar__right__content:hover{
+    color:black;
+    cursor:pointer;
+    transition:0.3s;
+}
