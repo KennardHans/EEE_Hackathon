@@ -33,7 +33,7 @@ padding-left: 1vh;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width:40%;
+    width:50%;
 }
 
 .Navbar__right__content{

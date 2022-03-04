@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './style.css'
+import { useState } from "react";
 
 export const Navbar = () => {
+    const [signed,setSigned] = useState(false);
+    const [navbarContent,setNavbarContent] = useState(["FAQs","About","Log In","Sign Up",". . ."]);
+    const handleSignIN = () => {
+        if(navbarContent[2]==="Log In"){
+            setSigned(true);
+        }
+    }
+    useEffect(() => {
+        if(signed){
+            setNavbarContent(["Join Event","Create","About","Profile",". . ."])
+        }
+    },[signed])
+    
     return ( 
         <div className="Navbar">
             <div className="Navbar__left">
@@ -9,11 +23,15 @@ export const Navbar = () => {
                 <div className="Navbar__left__title">TITLE</div>
             </div>
             <div className="Navbar__right">
-                <div className="Navbar__right__content">FAQs</div>
-                <div className="Navbar__right__content">About</div>
-                <div className="Navbar__right__content">Log In</div>
-                <div className="Navbar__right__content">Sign Up</div>
-                <div className="Navbar__right__content">. . .</div>
+                <div className="Navbar__right__content">{navbarContent[0]}</div>
+                <div className="Navbar__right__content">{navbarContent[1]}</div>
+                <div onClick={() => {
+                    handleSignIN()
+                }}className="Navbar__right__content">{navbarContent[2]}</div>
+                <div onClick={() => {
+                    handleSignIN()
+                }}className="Navbar__right__content">{navbarContent[3]}</div>
+                <div className="Navbar__right__content">{navbarContent[4]}</div>
             </div>
         </div>
      );
