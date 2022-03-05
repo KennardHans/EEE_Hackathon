@@ -1,5 +1,5 @@
 .Navbar{
-    background-color:#926B86;
+    background-color:#5FCFAE;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,6 +15,12 @@
 
 .Navbar__left__img{
     padding:3vh;
+    height:10vh;
+}
+
+.Navbar__left__img img{
+    height:100%;
+    width:100%;
 }
 
 .Navbar__left__title{
@@ -26,6 +32,10 @@ line-height: 61px;
 letter-spacing: 0px;
 text-align: center;
 padding-left: 1vh;
+}
+
+.Navbar__left__title span{
+    font-weight: 400;
 }
 
 .Navbar__right{

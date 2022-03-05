@@ -1,0 +1,18 @@
+.Trending{
+    height:220vh;
+}
+
+.Trending__toptext{
+    margin-bottom: 7vh;
+}
+
+.Trending__toptext div{
+    font-family: Inter;
+    font-size: 11vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 20px;
+    text-align: center;
+    margin-bottom: 2vh;
+}

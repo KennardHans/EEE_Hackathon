@@ -1,0 +1,14 @@
+.LandingPage__Pic{
+    background-image:url('../Assets/Carousel_bg.jpg');
+    height:50vh;
+    font-family: Inter;
+    font-size: 8vh;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}

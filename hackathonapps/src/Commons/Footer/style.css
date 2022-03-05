@@ -1,6 +1,6 @@
 .Footer{
-    background-color: #9D7A92;
-    height:40vh;
+    background-color: #E07B79;
+    height:50vh;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -38,9 +38,3 @@ color:white;
     height:35vh;
 }
 
-/* .Footer__three__img{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-} */

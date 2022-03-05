@@ -19,8 +19,10 @@ export const Navbar = () => {
     return ( 
         <div className="Navbar">
             <div className="Navbar__left">
-                <div className="Navbar__left__img">Image</div>
-                <div className="Navbar__left__title">TITLE</div>
+                <div className="Navbar__left__img">
+                    <img src="/NavbarAssets/LOGO.png"/>
+                </div>
+                <div className="Navbar__left__title">EVE<span>NTLY</span></div>
             </div>
             <div className="Navbar__right">
                 <div className="Navbar__right__content">{navbarContent[0]}</div>
