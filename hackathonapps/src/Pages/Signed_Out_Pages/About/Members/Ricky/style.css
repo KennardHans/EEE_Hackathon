@@ -1,0 +1,27 @@
+.Ricky{
+    position: relative;
+    left:200px;
+}
+
+.Ricky__name{
+    height: 84px;
+    width: 333px;
+    border-radius: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:0;
+    bottom:50px;
+}
+.Ricky__name div{
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 20px;
+    text-align: center;
+    color: white;    
+}

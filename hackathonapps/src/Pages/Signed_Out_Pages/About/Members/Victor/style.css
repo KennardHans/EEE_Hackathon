@@ -1,0 +1,29 @@
+.Victor{
+    position: relative;
+    right:150px;
+    bottom:60px;
+}
+
+.Victor__name{
+    height: 83.99998474121101px;
+    width: 309.0000000000003px;
+    border-radius: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);   
+    position: absolute; 
+    right:40px;
+    bottom:150px;
+}
+.Victor__name div{
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 20px;
+    text-align: center;
+    color: white;    
+}
