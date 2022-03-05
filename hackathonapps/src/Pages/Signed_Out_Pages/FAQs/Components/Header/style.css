@@ -1,0 +1,22 @@
+.Header{
+    height:40vh;
+    background-image: url('/public/FAQsAssets/bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header div{
+    font-family: Inter;
+    font-size: 11vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 87px;
+    letter-spacing: 1.5vw;
+    color: white;
+    border: solid #6FD4B6 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 8vw;
+}
