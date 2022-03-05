@@ -1,0 +1,25 @@
+.Header{
+    height:40vh;
+    background-image: url('/public/JoinEventAssets/bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.Header div{
+    font-family: Inter;
+    font-size: 8vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: center;    
+    color: white;
+    border: solid #6FD4B6 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:10vw;
+    padding-right: 8vw;
+}

@@ -1,0 +1,25 @@
+.Join{
+    background-color: #E5E5E5;
+}
+
+.Join__big{
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: center;    
+}
+
+.Join__small{
+    font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: center;
+margin-left: 0vw;
+padding-bottom: 8vh;
+}

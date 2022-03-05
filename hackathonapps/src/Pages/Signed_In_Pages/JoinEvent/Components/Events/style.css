@@ -1,0 +1,108 @@
+.Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Content{
+    width:90vw;
+}
+.Content__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:4vw;
+    align-content: center;
+    margin-bottom: 10vh;
+}
+.Content__grid__item{
+    height:90vh;
+    background-color: #A3D670;
+    border-radius: 10px;
+}
+
+.Content__grid__item__pic{
+    width:100%;
+}
+.Content__grid__item__pic img{
+    width:100%;
+}
+
+.Content__grid__item__margin{
+    margin-left: 2vw;
+}
+.Content__grid__item__margin div{
+    text-align: left;
+}
+
+.Content__grid__item__margin__30{
+    font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 2vh;
+margin-bottom: 4vh;
+}
+
+.Content__grid__item__margin__20{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#00000057;
+    margin-bottom: 4vh;
+}
+
+.Content__grid__item__margin__flex{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:5vh;
+}
+
+.Content__grid__item__margin__flex img{
+    margin-right: 1vw;
+}
+
+.Content__grid__item__margin__flex div{
+    font-family: Inter;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0px;
+}
+
+.Content__grid__item__margin__button{
+    display:flex;
+    justify-content: space-between;
+}
+
+.Content__grid__item__margin__button button{
+    background-color: #96AEEB;
+    width:50%;
+    border: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Content__grid__item__margin__button button div{
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:white;    
+}
+
+.Content__grid__item__margin__button img{
+    margin-right:1vw;
+}
