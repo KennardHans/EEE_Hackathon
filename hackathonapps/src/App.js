@@ -6,12 +6,13 @@ import { LandingPage } from './Pages/Signed_Out_Pages/Landing';
 import { AboutUs } from './Pages/Signed_Out_Pages/About';
 import { FAQs } from './Pages/Signed_Out_Pages/FAQs';
 import { JoinEvent } from './Pages/Signed_In_Pages/JoinEvent';
+import { ViewEvent } from './Pages/Signed_In_Pages/ViewEvent';
 function App() {
   return (
       <div className="App">
         <Navbar/>
         <Routes>
-          <Route exact path="/" element={<LandingPage/>}/>
+          <Route exact path="/" element={<ViewEvent/>}/>
           <Route exact path="aboutus" element={<AboutUs/>}/>
           <Route exact path="faqs" element={<FAQs/>}/>
           <Route exact path="joinevent" element={<JoinEvent/>}/>

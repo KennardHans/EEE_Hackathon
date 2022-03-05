@@ -1,7 +1,8 @@
 import React from "react";
 import './style.css';
-
+import { useNavigate } from "react-router-dom";
 export const Events = () => {
+    const navigate = useNavigate();
     return (
             <div className="Container">
             <div className="Content">
@@ -26,7 +27,9 @@ export const Events = () => {
                                 <div>25 AVAILABLE</div>
                             </div>
                             <div className="Content__grid__item__margin__button">
-                                <button>
+                                <button onClick={() => {
+                                    navigate('/')
+                                }}>
                                     <div>VIEW DETAILS</div>
                                     <img src="/LandingPageAssets/right_arrow.png"/>
                                 </button>
@@ -250,7 +253,9 @@ export const Events = () => {
                                 <div>25 AVAILABLE</div>
                             </div>
                             <div className="Content__grid__item__margin__button">
-                                <button>
+                                <button onClick={() => {
+                                    navigate('/')
+                                }}>
                                     <div>VIEW DETAILS</div>
                                     <img src="/LandingPageAssets/right_arrow.png"/>
                                 </button>

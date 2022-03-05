@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex img{
+    margin-bottom: 2vh;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+}
+.header img {
+    height:5vh;
+}
+.pink{
+    font-family: Inter;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#E07B79;  
+}

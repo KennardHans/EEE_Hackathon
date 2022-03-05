@@ -1,0 +1,9 @@
+.TopPic__bg{
+    height:80vh;
+    width: 100vw;
+}
+
+.TopPic__button{
+    position: relative;
+    bottom:10vh;
+}
