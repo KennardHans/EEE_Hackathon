@@ -30,4 +30,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 15vh;
+}
+.yellowbar{
+    background-color: #F5B65D;
+    height:10vh;
+}
+.add-pic{
+    position: relative;
+    bottom:28px;
+}
+.add-pic:hover{
+    cursor: pointer;
 }

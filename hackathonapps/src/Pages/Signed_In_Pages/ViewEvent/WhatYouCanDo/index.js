@@ -1,7 +1,9 @@
 import React from "react";
 import './style.css';
-
+import { SuccessModal } from "../SuccessModal";
+import { useState } from "react";
 export const WYCD = () => {
+    const [sucShow,setSucShow] = useState(false);
     return (
         <div className="WYCD">
             <div className="text">WHAT YOU CAN DO</div>
@@ -21,6 +23,11 @@ export const WYCD = () => {
                 </div>
             </div>
             </div>
+            <div className="yellowbar">
+                <div><img onClick={() => {setSucShow(true)}}className="add-pic" src="/ViewEventAssets/ADD.png"/></div>
+                <div></div>
+            </div>
+            <SuccessModal show={sucShow} setShow={setSucShow}/>
         </div>
     )
 }
